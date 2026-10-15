@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Java + css</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>
+            Trocar a imagem ao passar o mouse
+        </h1>
+    </header>
+    <section>
+        <figure id="flaco">
+            <img src="./img/palmeiras.webp" alt="palmeiras"
+            onmouseover="this.src='./img/liberta.webp'"
+            onmouseout="this.src='./img/palmeiras.webp'">
+           
+
+            <figcaption>Usando mouseover/mouseout</figcaption>
+        </figure>
+
+
+        <figure id="liberta">
+            <figcaption>CSS</figcaption>
+        </figure>
+
+
+
+
+    </section>
+</body>
+
+</html>
